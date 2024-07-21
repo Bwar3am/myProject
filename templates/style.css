@@ -1,3 +1,73 @@
-a{
-    font-style: italic; 
+body{
+    background-color:yellow;
 }
+
+
+
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: black;
+    color:green;
+    border-radius: 10px;
+}
+
+.header h1{
+    font-size:50px;
+    text-transform: capitalize;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-style: italic;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    padding-top: opx;
+    padding-bottom: 0px;
+    padding-rght: 0px;
+    padding-left: 0px;
+    border-radius: 5px;
+}
+
+.topnav a {
+
+    font-size:30px;
+    padding: 20px;
+    float: left;
+    text-decoration:none;
+    display: inline-block;
+    color: white;
+    font-style: italic;
+
+}
+
+a:hover {
+    background-color: green;
+    color: black ;
+
+}
+
+.leftroom {   
+    float: right;
+    width: 15%;
+}
+
+
+.card {
+    background-color:gray;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+
